@@ -1,0 +1,3 @@
+﻿using StupidParserTest;
+
+TabletReportBase report = ReportParser.Parse<AssCheekReport>(new byte[] { 0x00, 0x02, 0x04, 0x06, 0x45, 0x46, 0xFF, 0xF0 });
